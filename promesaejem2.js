@@ -17,9 +17,9 @@ const ObtenerUsuario = (id) => {
 };
 
 
-ObtenerUsuario(2)
+ObtenerUsuario(6)
     .then(usuario => {
-        console.log("Uusario encontrado:", usuario)
+        console.log("Usario encontrado:", usuario)
     }).catch(error => {
         console.error(error);
     });
